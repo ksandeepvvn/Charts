@@ -1,0 +1,23 @@
+PODS:
+  - FSLineChart (0.1.7)
+  - Realm (2.0.4):
+    - Realm/Headers (= 2.0.4)
+  - Realm/Headers (2.0.4)
+  - RealmSwift (2.0.4):
+    - Realm (= 2.0.4)
+  - Socket.IO-Client-Swift (8.2.0)
+
+DEPENDENCIES:
+  - FSLineChart
+  - RealmSwift (~> 2.0.2)
+  - Socket.IO-Client-Swift (~> 8.2.0)
+
+SPEC CHECKSUMS:
+  FSLineChart: 1b8d3727e8feb323144126d381184bf1b15e6efc
+  Realm: 9da97f48365f8b99dd95c28d45ad8222d62e1775
+  RealmSwift: 01e8db006035f16003e6307ae8eae1adccce68db
+  Socket.IO-Client-Swift: 900cf511777045c80d1ce1f11f71261e87765dd1
+
+PODFILE CHECKSUM: cb69452c853b9231661658b95bf20d9dba3b19d7
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,35 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iOS Example' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOS Example
+pod 'Socket.IO-Client-Swift', '~> 8.2.0'
+
+end
+
+target 'SwiftSocket iOS' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftSocket iOS
+
+end
+
+target 'SwiftSocket macOS' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftSocket macOS
+
+end
+
+target 'SwiftSocket tvOS' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftSocket tvOS
+
+end
