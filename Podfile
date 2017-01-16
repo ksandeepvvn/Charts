@@ -9,6 +9,7 @@ target 'Testing' do
 	pod 'Socket.IO-Client-Swift', '~> 8.2.0'
     pod 'RealmSwift', '~> 2.0.2'
     pod "FSLineChart"
+    pod "SwiftChart"
     
     post_install do |installer|
         installer.pods_project.targets.each do |target|

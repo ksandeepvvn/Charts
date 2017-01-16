@@ -15,6 +15,15 @@ import RealmSwift
 
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var showGraph: UIButton!
+    
+    @IBOutlet weak var text1: UILabel!
+    
+    @IBOutlet weak var text2: UILabel!
+    
  let socket = SocketIOClient(socketURL: URL(string: "http://ios-test.us-east-1.elasticbeanstalk.com/")!, config: [.log(true), .forcePolling(true)])
     var numberss: Int? = nil
     var breakNumber: Int? = nil
@@ -22,6 +31,9 @@ class ViewController: UIViewController {
     let requestIdentifier = "SampleRequest"
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.text1.isHidden = false
+        self.text2.isHidden = false
+    showGraph.isHidden = true
         socket.joinNamespace("/random")
         addHandlers()
         socket.connect()
@@ -113,6 +125,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
         print("Notification being triggered")
         if notification.request.identifier == requestIdentifier{
             completionHandler( [.alert,.sound,.badge])
+        self.showGraph.isHidden = false
+            self.text1.isHidden = true
+            self.text2.isHidden = true
         }
     }
 }

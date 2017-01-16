@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5D48D1F64C497AB683A6246380E34B54'
-               BlueprintName = 'Realm'
+               BlueprintIdentifier = 'AA3B37EEBD659106A6FE87038B7F9222'
+               BlueprintName = 'SwiftChart'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Realm.framework'>
+               BuildableName = 'SwiftChart.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
