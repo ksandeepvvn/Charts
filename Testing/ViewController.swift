@@ -14,6 +14,7 @@ import RealmSwift
 
 
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController {
     
     
@@ -115,6 +116,7 @@ func triggerNotification(Number: Int)
         center.removePendingNotificationRequests(withIdentifiers: [requestIdentifier])
     }
     }
+@available(iOS 10.0, *)
 extension ViewController:UNUserNotificationCenterDelegate{
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {

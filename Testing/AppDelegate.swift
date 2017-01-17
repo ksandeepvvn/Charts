@@ -10,6 +10,7 @@ import UIKit
 import UserNotifications
 import SocketIO
 
+@available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
